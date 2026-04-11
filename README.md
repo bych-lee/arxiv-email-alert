@@ -12,18 +12,23 @@
   <em>Figure 1. End image.</em>
 </p>
 
-## How it works
-
-<p align="center">
-  <img src="fig_how.png" alt="How it works fig" width="700"><br>
-  <em>Figure 2. Sequence diagram.</em>
-</p>
-
 ## How to use
 
 ### 1. Fork this repository
 
-### 2. Add repository variable
+### 2. Add repository secrets
+
+Go to:
+
+`Settings -> Secrets and variables -> Actions -> Secrets`
+
+Create these secrets:
+
+- `SENDER_EMAIL`
+- `RECEIVER_EMAIL`
+- `GMAIL_APP_PASSWORD`
+
+### 3. Add repository variable
 
 Go to:
 
@@ -50,14 +55,9 @@ search:
   max_results: 10
 ```
 
-### 3. Add repository secrets
+## How it works
 
-Go to:
-
-`Settings -> Secrets and variables -> Actions -> Secrets`
-
-Create these secrets:
-
-- `SENDER_EMAIL`
-- `RECEIVER_EMAIL`
-- `GMAIL_APP_PASSWORD`
+<p align="center">
+  <img src="fig_how.png" alt="How it works fig" width="700"><br>
+  <em>Figure 2. Sequence diagram.</em>
+</p>
