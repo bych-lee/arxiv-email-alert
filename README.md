@@ -19,9 +19,11 @@
   <em>Figure 2. Sequence diagram.</em>
 </p>
 
-## GitHub setup
+## How to use
 
-### 1. Add repository variable
+### 1. Fork this repository
+
+### 2. Add repository variable
 
 Go to:
 
@@ -48,7 +50,7 @@ search:
   max_results: 10
 ```
 
-### 2. Add repository secrets
+### 3. Add repository secrets
 
 Go to:
 
