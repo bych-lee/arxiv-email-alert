@@ -14,7 +14,7 @@
 
 ## How to use
 
-If you follow the next steps, GitHub Actions will run automatically on a schedule and send the results by email.
+If you follow the next three steps, GitHub Actions will run automatically on a schedule and send the results by email.
 
 ### 1. Fork this repository
 
