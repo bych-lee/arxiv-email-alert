@@ -20,12 +20,12 @@ This will create your own copy of the project so you can customize the workflow 
 To change when the workflow runs, edit the `cron` expression in
 [.github/workflows/arxiv-email-alert.yml](.github/workflows/arxiv-email-alert.yml).
 
-Example (runs every day at 22:25 UTC):
+Example (runs every Friday at 22:25 UTC):
 
 ```yaml
 on:
   schedule:
-    - cron: "25 22 * * *"  # minute hour day month weekday (UTC)
+    - cron: "25 22 * * 5"  # minute hour day month weekday (UTC)
 ```
 
 ### 2. Add repository secrets
